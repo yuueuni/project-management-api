@@ -30,4 +30,5 @@ archive.zip
 .DS_Store
 
 .venv
-db-mysql/db-data/
+docker/data/
+*.env
