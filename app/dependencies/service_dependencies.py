@@ -8,3 +8,7 @@ from app.services import AuthService, MemberService,ProjectService
 def get_auth_service(db: Session = Depends(get_db)) -> AuthService:
     return AuthService(db)
 
+
+def get_member_service(db: Session = Depends(get_db)) -> MemberService:
+    return MemberService(db)
+

@@ -11,3 +11,7 @@ from .auth import (
     EmailVerifyResponse,
     PasswordResetRequest,
 )
+from .member import (
+    MemberResponse,
+    UpdateMemberRequest,
+)
