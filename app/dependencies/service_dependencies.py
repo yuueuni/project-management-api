@@ -12,3 +12,7 @@ def get_auth_service(db: Session = Depends(get_db)) -> AuthService:
 def get_member_service(db: Session = Depends(get_db)) -> MemberService:
     return MemberService(db)
 
+
+def get_project_service(db: Session = Depends(get_db)) -> ProjectService:
+    return ProjectService(db)
+
