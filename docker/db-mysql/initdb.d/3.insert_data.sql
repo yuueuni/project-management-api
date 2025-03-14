@@ -41,7 +41,7 @@ VALUES
     (1, 3, 1), -- Admin: 프로젝트 삭제
     (1, 4, 1), -- Admin: 프로젝트 조회
     (1, 5, 1), -- Admin: 팀원 초대 및 역할 부여
-    (1, 12, 1), -- Admin: 계정 삭제
+    (1, 11, 1), -- Admin: 계정 삭제
     (2, 1, 1), -- Project Owner: 프로젝트 생성
     (2, 2, 1), -- Project Owner: 프로젝트 수정
     (2, 3, 1), -- Project Owner: 프로젝트 삭제

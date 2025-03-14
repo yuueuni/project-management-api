@@ -117,7 +117,7 @@ CREATE TABLE email_verification (
     email VARCHAR(100) NOT NULL COMMENT '이메일',
     code VARCHAR(6) NOT NULL COMMENT '인증 코드',
     expired_at DATETIME NOT NULL COMMENT '만료일시',
-    created_at DATETIME NOT NULL DEFAULT NOW(),
+    created_at DATETIME NOT NULL DEFAULT NOW()
 );
 
 -- `email`과 `code`에 대한 복합 인덱스
