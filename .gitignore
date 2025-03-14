@@ -31,4 +31,4 @@ archive.zip
 
 .venv
 docker/data/
-#*.env
+*.env
